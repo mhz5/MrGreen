@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Michael Zhao. All rights reserved.
 //
 
-#import "GreenSessionsVC.h"
+#import "GreenDisplaySessionsVC.h"
 
-@interface GreenSessionsVC ()
+@interface GreenDisplaySessionsVC ()
 
 @end
 
-@implementation GreenSessionsVC
+@implementation GreenDisplaySessionsVC
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -58,6 +58,7 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [[UITableViewCell alloc] init];
+
 //    [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     

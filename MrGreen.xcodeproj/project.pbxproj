@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F64030391954C92100E46F76 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64030381954C92100E46F76 /* MultipeerConnectivity.framework */; };
 		F6E3E7091954B05E007E8212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E7081954B05E007E8212 /* Foundation.framework */; };
 		F6E3E70B1954B05E007E8212 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */; };
 		F6E3E70D1954B05E007E8212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70C1954B05E007E8212 /* UIKit.framework */; };
@@ -20,7 +21,7 @@
 		F6E3E72C1954B05E007E8212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E72A1954B05E007E8212 /* InfoPlist.strings */; };
 		F6E3E72E1954B05E007E8212 /* MrGreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E72D1954B05E007E8212 /* MrGreenTests.m */; };
 		F6E3E7381954B06E007E8212 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */; };
-		F6E3E73D1954B2FC007E8212 /* GreenSessionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E73C1954B2FC007E8212 /* GreenSessionsVC.m */; };
+		F6E3E73D1954B2FC007E8212 /* GreenDisplaySessionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E73C1954B2FC007E8212 /* GreenDisplaySessionsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F64030381954C92100E46F76 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		F6E3E7051954B05E007E8212 /* MrGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3E7081954B05E007E8212 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +53,8 @@
 		F6E3E72B1954B05E007E8212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6E3E72D1954B05E007E8212 /* MrGreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrGreenTests.m; sourceTree = "<group>"; };
 		F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F6E3E73B1954B2FC007E8212 /* GreenSessionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenSessionsVC.h; sourceTree = "<group>"; };
-		F6E3E73C1954B2FC007E8212 /* GreenSessionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenSessionsVC.m; sourceTree = "<group>"; };
+		F6E3E73B1954B2FC007E8212 /* GreenDisplaySessionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenDisplaySessionsVC.h; sourceTree = "<group>"; };
+		F6E3E73C1954B2FC007E8212 /* GreenDisplaySessionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenDisplaySessionsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64030391954C92100E46F76 /* MultipeerConnectivity.framework in Frameworks */,
 				F6E3E70B1954B05E007E8212 /* CoreGraphics.framework in Frameworks */,
 				F6E3E70D1954B05E007E8212 /* UIKit.framework in Frameworks */,
 				F6E3E7091954B05E007E8212 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		F6E3E7071954B05E007E8212 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F64030381954C92100E46F76 /* MultipeerConnectivity.framework */,
 				F6E3E7081954B05E007E8212 /* Foundation.framework */,
 				F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */,
 				F6E3E70C1954B05E007E8212 /* UIKit.framework */,
@@ -115,8 +119,8 @@
 				F6E3E7171954B05E007E8212 /* GreenAppDelegate.h */,
 				F6E3E7181954B05E007E8212 /* GreenAppDelegate.m */,
 				F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */,
-				F6E3E73B1954B2FC007E8212 /* GreenSessionsVC.h */,
-				F6E3E73C1954B2FC007E8212 /* GreenSessionsVC.m */,
+				F6E3E73B1954B2FC007E8212 /* GreenDisplaySessionsVC.h */,
+				F6E3E73C1954B2FC007E8212 /* GreenDisplaySessionsVC.m */,
 				F6E3E71A1954B05E007E8212 /* Images.xcassets */,
 				F6E3E70F1954B05E007E8212 /* Supporting Files */,
 			);
@@ -200,6 +204,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Michael Zhao";
 				TargetAttributes = {
+					F6E3E7041954B05E007E8212 = {
+						DevelopmentTeam = P5S97F375V;
+					};
 					F6E3E71F1954B05E007E8212 = {
 						TestTargetID = F6E3E7041954B05E007E8212;
 					};
@@ -251,7 +258,7 @@
 			files = (
 				F6E3E7191954B05E007E8212 /* GreenAppDelegate.m in Sources */,
 				F6E3E7151954B05E007E8212 /* main.m in Sources */,
-				F6E3E73D1954B2FC007E8212 /* GreenSessionsVC.m in Sources */,
+				F6E3E73D1954B2FC007E8212 /* GreenDisplaySessionsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MrGreen/MrGreen-Prefix.pch";
 				INFOPLIST_FILE = "MrGreen/MrGreen-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,10 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MrGreen/MrGreen-Prefix.pch";
 				INFOPLIST_FILE = "MrGreen/MrGreen-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +467,7 @@
 				F6E3E7331954B05E007E8212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6E3E7341954B05E007E8212 /* Build configuration list for PBXNativeTarget "MrGreenTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +476,7 @@
 				F6E3E7361954B05E007E8212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

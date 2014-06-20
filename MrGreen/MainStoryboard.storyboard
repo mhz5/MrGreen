@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="87" y="-94"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Session-->
         <scene sceneID="TOt-Tx-rNu">
             <objects>
-                <viewController id="l5R-hN-ujb" sceneMemberID="viewController">
+                <viewController id="l5R-hN-ujb" userLabel="Create Session" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mV1-ZG-tZX"/>
                         <viewControllerLayoutGuide type="bottom" id="ySA-Sb-h7m"/>
@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="481" y="-798"/>
         </scene>
-        <!--Sessions-->
+        <!--Sessions Display-->
         <scene sceneID="olg-8z-Rgd">
             <objects>
-                <tableViewController id="R3I-0R-IHw" userLabel="Sessions" customClass="GreenSessionsVC" sceneMemberID="viewController">
+                <tableViewController id="R3I-0R-IHw" userLabel="Sessions Display" customClass="GreenDisplaySessionsVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ZNo-eD-aHS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

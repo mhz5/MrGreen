@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GreenSessionsVC : UITableViewController
+@interface GreenDisplaySessionsVC : UITableViewController
 
 @end
