@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DBE8F541954D53900199AE5 /* GreenRequestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE8F531954D53900199AE5 /* GreenRequestFile.m */; };
 		F64030391954C92100E46F76 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64030381954C92100E46F76 /* MultipeerConnectivity.framework */; };
 		F640303F1954CBE200E46F76 /* GreenCreateSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F640303E1954CBE200E46F76 /* GreenCreateSessionVC.m */; };
 		F6E3E7091954B05E007E8212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E7081954B05E007E8212 /* Foundation.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DBE8F521954D53900199AE5 /* GreenRequestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreenRequestFile.h; path = ../GreenRequestFile.h; sourceTree = "<group>"; };
+		8DBE8F531954D53900199AE5 /* GreenRequestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenRequestFile.m; path = ../GreenRequestFile.m; sourceTree = "<group>"; };
 		F64030381954C92100E46F76 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		F640303D1954CBE200E46F76 /* GreenCreateSessionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenCreateSessionVC.h; sourceTree = "<group>"; };
 		F640303E1954CBE200E46F76 /* GreenCreateSessionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenCreateSessionVC.m; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				F6E3E73C1954B2FC007E8212 /* GreenDisplaySessionsVC.m */,
 				F640303D1954CBE200E46F76 /* GreenCreateSessionVC.h */,
 				F640303E1954CBE200E46F76 /* GreenCreateSessionVC.m */,
+				8DBE8F521954D53900199AE5 /* GreenRequestFile.h */,
+				8DBE8F531954D53900199AE5 /* GreenRequestFile.m */,
 				F6E3E71A1954B05E007E8212 /* Images.xcassets */,
 				F6E3E70F1954B05E007E8212 /* Supporting Files */,
 			);
@@ -265,6 +270,7 @@
 				F6E3E7151954B05E007E8212 /* main.m in Sources */,
 				F6E3E73D1954B2FC007E8212 /* GreenDisplaySessionsVC.m in Sources */,
 				F640303F1954CBE200E46F76 /* GreenCreateSessionVC.m in Sources */,
+				8DBE8F541954D53900199AE5 /* GreenRequestFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

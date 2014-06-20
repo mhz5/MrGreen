@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Michael Zhao. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface GreenRequestFile : NSObject
+@interface GreenRequestFile : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIButton *DownloadBtn;
 
 @end
