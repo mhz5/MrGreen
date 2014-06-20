@@ -53,7 +53,7 @@
         <!--Create Session-->
         <scene sceneID="TOt-Tx-rNu">
             <objects>
-                <viewController id="l5R-hN-ujb" userLabel="Create Session" sceneMemberID="viewController">
+                <viewController id="l5R-hN-ujb" userLabel="Create Session" customClass="GreenCreateSessionVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mV1-ZG-tZX"/>
                         <viewControllerLayoutGuide type="bottom" id="ySA-Sb-h7m"/>
@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7k2-WU-wtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="481" y="-798"/>
+            <point key="canvasLocation" x="875" y="-94"/>
         </scene>
         <!--Sessions Display-->
         <scene sceneID="olg-8z-Rgd">

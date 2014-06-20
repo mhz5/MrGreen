@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4CCC5451-1A59-43C9-ACA9-656BB7EF2187</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MrGreen</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE964C39-9FB5-4E81-8B6A-1B62D603B112</key>
+		<string>ssh://github.com/mhz5/MrGreen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MrGreen.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE964C39-9FB5-4E81-8B6A-1B62D603B112</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/mhz5/MrGreen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE964C39-9FB5-4E81-8B6A-1B62D603B112</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE964C39-9FB5-4E81-8B6A-1B62D603B112</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MrGreen</string>
+		</dict>
+	</array>
+</dict>
+</plist>

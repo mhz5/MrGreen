@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F64030391954C92100E46F76 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64030381954C92100E46F76 /* MultipeerConnectivity.framework */; };
+		F640303F1954CBE200E46F76 /* GreenCreateSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F640303E1954CBE200E46F76 /* GreenCreateSessionVC.m */; };
 		F6E3E7091954B05E007E8212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E7081954B05E007E8212 /* Foundation.framework */; };
 		F6E3E70B1954B05E007E8212 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */; };
 		F6E3E70D1954B05E007E8212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70C1954B05E007E8212 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		F64030381954C92100E46F76 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		F640303D1954CBE200E46F76 /* GreenCreateSessionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenCreateSessionVC.h; sourceTree = "<group>"; };
+		F640303E1954CBE200E46F76 /* GreenCreateSessionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenCreateSessionVC.m; sourceTree = "<group>"; };
 		F6E3E7051954B05E007E8212 /* MrGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3E7081954B05E007E8212 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 				F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */,
 				F6E3E73B1954B2FC007E8212 /* GreenDisplaySessionsVC.h */,
 				F6E3E73C1954B2FC007E8212 /* GreenDisplaySessionsVC.m */,
+				F640303D1954CBE200E46F76 /* GreenCreateSessionVC.h */,
+				F640303E1954CBE200E46F76 /* GreenCreateSessionVC.m */,
 				F6E3E71A1954B05E007E8212 /* Images.xcassets */,
 				F6E3E70F1954B05E007E8212 /* Supporting Files */,
 			);
@@ -259,6 +264,7 @@
 				F6E3E7191954B05E007E8212 /* GreenAppDelegate.m in Sources */,
 				F6E3E7151954B05E007E8212 /* main.m in Sources */,
 				F6E3E73D1954B2FC007E8212 /* GreenDisplaySessionsVC.m in Sources */,
+				F640303F1954CBE200E46F76 /* GreenCreateSessionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
