@@ -56,7 +56,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [[UITableViewCell alloc] init];
 
 //    [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
