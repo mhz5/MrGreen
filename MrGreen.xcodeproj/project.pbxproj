@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6E3E7091954B05E007E8212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E7081954B05E007E8212 /* Foundation.framework */; };
+		F6E3E70B1954B05E007E8212 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */; };
+		F6E3E70D1954B05E007E8212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70C1954B05E007E8212 /* UIKit.framework */; };
+		F6E3E7131954B05E007E8212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E7111954B05E007E8212 /* InfoPlist.strings */; };
+		F6E3E7151954B05E007E8212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E7141954B05E007E8212 /* main.m */; };
+		F6E3E7191954B05E007E8212 /* GreenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E7181954B05E007E8212 /* GreenAppDelegate.m */; };
+		F6E3E71B1954B05E007E8212 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E71A1954B05E007E8212 /* Images.xcassets */; };
+		F6E3E7221954B05E007E8212 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E7211954B05E007E8212 /* XCTest.framework */; };
+		F6E3E7231954B05E007E8212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E7081954B05E007E8212 /* Foundation.framework */; };
+		F6E3E7241954B05E007E8212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70C1954B05E007E8212 /* UIKit.framework */; };
+		F6E3E72C1954B05E007E8212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E72A1954B05E007E8212 /* InfoPlist.strings */; };
+		F6E3E72E1954B05E007E8212 /* MrGreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E72D1954B05E007E8212 /* MrGreenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E3E7251954B05E007E8212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E3E6FD1954B05E007E8212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E3E7041954B05E007E8212;
+			remoteInfo = MrGreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6E3E7051954B05E007E8212 /* MrGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E3E7081954B05E007E8212 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6E3E70C1954B05E007E8212 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6E3E7101954B05E007E8212 /* MrGreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrGreen-Info.plist"; sourceTree = "<group>"; };
+		F6E3E7121954B05E007E8212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6E3E7141954B05E007E8212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6E3E7161954B05E007E8212 /* MrGreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MrGreen-Prefix.pch"; sourceTree = "<group>"; };
+		F6E3E7171954B05E007E8212 /* GreenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenAppDelegate.h; sourceTree = "<group>"; };
+		F6E3E7181954B05E007E8212 /* GreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenAppDelegate.m; sourceTree = "<group>"; };
+		F6E3E71A1954B05E007E8212 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6E3E7201954B05E007E8212 /* MrGreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrGreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E3E7211954B05E007E8212 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F6E3E7291954B05E007E8212 /* MrGreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrGreenTests-Info.plist"; sourceTree = "<group>"; };
+		F6E3E72B1954B05E007E8212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6E3E72D1954B05E007E8212 /* MrGreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrGreenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E3E7021954B05E007E8212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3E70B1954B05E007E8212 /* CoreGraphics.framework in Frameworks */,
+				F6E3E70D1954B05E007E8212 /* UIKit.framework in Frameworks */,
+				F6E3E7091954B05E007E8212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E3E71D1954B05E007E8212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3E7221954B05E007E8212 /* XCTest.framework in Frameworks */,
+				F6E3E7241954B05E007E8212 /* UIKit.framework in Frameworks */,
+				F6E3E7231954B05E007E8212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E3E6FC1954B05E007E8212 = {
+			isa = PBXGroup;
+			children = (
+				F6E3E70E1954B05E007E8212 /* MrGreen */,
+				F6E3E7271954B05E007E8212 /* MrGreenTests */,
+				F6E3E7071954B05E007E8212 /* Frameworks */,
+				F6E3E7061954B05E007E8212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E3E7061954B05E007E8212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3E7051954B05E007E8212 /* MrGreen.app */,
+				F6E3E7201954B05E007E8212 /* MrGreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E3E7071954B05E007E8212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3E7081954B05E007E8212 /* Foundation.framework */,
+				F6E3E70A1954B05E007E8212 /* CoreGraphics.framework */,
+				F6E3E70C1954B05E007E8212 /* UIKit.framework */,
+				F6E3E7211954B05E007E8212 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E3E70E1954B05E007E8212 /* MrGreen */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3E7171954B05E007E8212 /* GreenAppDelegate.h */,
+				F6E3E7181954B05E007E8212 /* GreenAppDelegate.m */,
+				F6E3E71A1954B05E007E8212 /* Images.xcassets */,
+				F6E3E70F1954B05E007E8212 /* Supporting Files */,
+			);
+			path = MrGreen;
+			sourceTree = "<group>";
+		};
+		F6E3E70F1954B05E007E8212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3E7101954B05E007E8212 /* MrGreen-Info.plist */,
+				F6E3E7111954B05E007E8212 /* InfoPlist.strings */,
+				F6E3E7141954B05E007E8212 /* main.m */,
+				F6E3E7161954B05E007E8212 /* MrGreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6E3E7271954B05E007E8212 /* MrGreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3E72D1954B05E007E8212 /* MrGreenTests.m */,
+				F6E3E7281954B05E007E8212 /* Supporting Files */,
+			);
+			path = MrGreenTests;
+			sourceTree = "<group>";
+		};
+		F6E3E7281954B05E007E8212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E3E7291954B05E007E8212 /* MrGreenTests-Info.plist */,
+				F6E3E72A1954B05E007E8212 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E3E7041954B05E007E8212 /* MrGreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E3E7311954B05E007E8212 /* Build configuration list for PBXNativeTarget "MrGreen" */;
+			buildPhases = (
+				F6E3E7011954B05E007E8212 /* Sources */,
+				F6E3E7021954B05E007E8212 /* Frameworks */,
+				F6E3E7031954B05E007E8212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrGreen;
+			productName = MrGreen;
+			productReference = F6E3E7051954B05E007E8212 /* MrGreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6E3E71F1954B05E007E8212 /* MrGreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E3E7341954B05E007E8212 /* Build configuration list for PBXNativeTarget "MrGreenTests" */;
+			buildPhases = (
+				F6E3E71C1954B05E007E8212 /* Sources */,
+				F6E3E71D1954B05E007E8212 /* Frameworks */,
+				F6E3E71E1954B05E007E8212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E3E7261954B05E007E8212 /* PBXTargetDependency */,
+			);
+			name = MrGreenTests;
+			productName = MrGreenTests;
+			productReference = F6E3E7201954B05E007E8212 /* MrGreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E3E6FD1954B05E007E8212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Green;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Michael Zhao";
+				TargetAttributes = {
+					F6E3E71F1954B05E007E8212 = {
+						TestTargetID = F6E3E7041954B05E007E8212;
+					};
+				};
+			};
+			buildConfigurationList = F6E3E7001954B05E007E8212 /* Build configuration list for PBXProject "MrGreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6E3E6FC1954B05E007E8212;
+			productRefGroup = F6E3E7061954B05E007E8212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E3E7041954B05E007E8212 /* MrGreen */,
+				F6E3E71F1954B05E007E8212 /* MrGreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E3E7031954B05E007E8212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3E7131954B05E007E8212 /* InfoPlist.strings in Resources */,
+				F6E3E71B1954B05E007E8212 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E3E71E1954B05E007E8212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3E72C1954B05E007E8212 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E3E7011954B05E007E8212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3E7191954B05E007E8212 /* GreenAppDelegate.m in Sources */,
+				F6E3E7151954B05E007E8212 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E3E71C1954B05E007E8212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E3E72E1954B05E007E8212 /* MrGreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E3E7261954B05E007E8212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E3E7041954B05E007E8212 /* MrGreen */;
+			targetProxy = F6E3E7251954B05E007E8212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6E3E7111954B05E007E8212 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E3E7121954B05E007E8212 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6E3E72A1954B05E007E8212 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E3E72B1954B05E007E8212 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E3E72F1954B05E007E8212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E3E7301954B05E007E8212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E3E7321954B05E007E8212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrGreen/MrGreen-Prefix.pch";
+				INFOPLIST_FILE = "MrGreen/MrGreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6E3E7331954B05E007E8212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrGreen/MrGreen-Prefix.pch";
+				INFOPLIST_FILE = "MrGreen/MrGreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6E3E7351954B05E007E8212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MrGreen.app/MrGreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrGreen/MrGreen-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MrGreenTests/MrGreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F6E3E7361954B05E007E8212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MrGreen.app/MrGreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrGreen/MrGreen-Prefix.pch";
+				INFOPLIST_FILE = "MrGreenTests/MrGreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E3E7001954B05E007E8212 /* Build configuration list for PBXProject "MrGreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E3E72F1954B05E007E8212 /* Debug */,
+				F6E3E7301954B05E007E8212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E3E7311954B05E007E8212 /* Build configuration list for PBXNativeTarget "MrGreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E3E7321954B05E007E8212 /* Debug */,
+				F6E3E7331954B05E007E8212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6E3E7341954B05E007E8212 /* Build configuration list for PBXNativeTarget "MrGreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E3E7351954B05E007E8212 /* Debug */,
+				F6E3E7361954B05E007E8212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E3E6FD1954B05E007E8212 /* Project object */;
+}
