@@ -19,6 +19,8 @@
 		F6E3E7241954B05E007E8212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E3E70C1954B05E007E8212 /* UIKit.framework */; };
 		F6E3E72C1954B05E007E8212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E72A1954B05E007E8212 /* InfoPlist.strings */; };
 		F6E3E72E1954B05E007E8212 /* MrGreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E72D1954B05E007E8212 /* MrGreenTests.m */; };
+		F6E3E7381954B06E007E8212 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */; };
+		F6E3E73D1954B2FC007E8212 /* GreenSessionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3E73C1954B2FC007E8212 /* GreenSessionsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		F6E3E7291954B05E007E8212 /* MrGreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrGreenTests-Info.plist"; sourceTree = "<group>"; };
 		F6E3E72B1954B05E007E8212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6E3E72D1954B05E007E8212 /* MrGreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrGreenTests.m; sourceTree = "<group>"; };
+		F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F6E3E73B1954B2FC007E8212 /* GreenSessionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenSessionsVC.h; sourceTree = "<group>"; };
+		F6E3E73C1954B2FC007E8212 /* GreenSessionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenSessionsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				F6E3E7171954B05E007E8212 /* GreenAppDelegate.h */,
 				F6E3E7181954B05E007E8212 /* GreenAppDelegate.m */,
+				F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */,
+				F6E3E73B1954B2FC007E8212 /* GreenSessionsVC.h */,
+				F6E3E73C1954B2FC007E8212 /* GreenSessionsVC.m */,
 				F6E3E71A1954B05E007E8212 /* Images.xcassets */,
 				F6E3E70F1954B05E007E8212 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E3E7381954B06E007E8212 /* MainStoryboard.storyboard in Resources */,
 				F6E3E7131954B05E007E8212 /* InfoPlist.strings in Resources */,
 				F6E3E71B1954B05E007E8212 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +251,7 @@
 			files = (
 				F6E3E7191954B05E007E8212 /* GreenAppDelegate.m in Sources */,
 				F6E3E7151954B05E007E8212 /* main.m in Sources */,
+				F6E3E73D1954B2FC007E8212 /* GreenSessionsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
