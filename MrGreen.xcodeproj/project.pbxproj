@@ -122,9 +122,9 @@
 		F6E3E70E1954B05E007E8212 /* MrGreen */ = {
 			isa = PBXGroup;
 			children = (
+				F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */,
 				F6E3E7171954B05E007E8212 /* GreenAppDelegate.h */,
 				F6E3E7181954B05E007E8212 /* GreenAppDelegate.m */,
-				F6E3E7371954B06E007E8212 /* MainStoryboard.storyboard */,
 				F6E3E73B1954B2FC007E8212 /* GreenDisplaySessionsVC.h */,
 				F6E3E73C1954B2FC007E8212 /* GreenDisplaySessionsVC.m */,
 				F640303D1954CBE200E46F76 /* GreenCreateSessionVC.h */,

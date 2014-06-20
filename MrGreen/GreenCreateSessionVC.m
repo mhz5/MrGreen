@@ -36,6 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self saveFile];
     [self setUpUI];
     [self setUpMultipeer];
 }
@@ -44,6 +45,29 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) saveFile{
+//    NSFileManager *fileManager = [[NSFileManager alloc] init];
+//    NSArray *urls = [fileManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    
+//    NSString *url = [NSString stringWithFormat:@"%@", urls[0]];
+    NSString *content = @"Test content";
+    NSString *destination = [[self applicationDocumentsDirectory].path
+     stringByAppendingPathComponent:@"testFile.txt"];
+    
+    NSError *error = nil;
+    BOOL succeeded = [content writeToFile:destination atomically:YES encoding:NSUTF8StringEncoding error:&error];
+    
+    if (succeeded)
+        NSLog(@"Successfully saved a file at %@", destination);
+    else
+        NSLog(@"Failed to store. Error: %@", error);
+}
+
+- (NSURL *)applicationDocumentsDirectory {
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory
+                                                   inDomains:NSUserDomainMask] lastObject];
 }
 
 - (void) setUpUI{
@@ -111,6 +135,7 @@
     //  Append your own text to text box
     [self receiveMessage: message fromPeer: self.myPeerID];
 }
+
 - (void) receiveMessage: (NSString *) message fromPeer: (MCPeerID *) peer{
     //  Create the final text to append
     NSString *finalText;
