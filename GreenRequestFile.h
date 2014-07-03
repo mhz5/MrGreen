@@ -10,4 +10,10 @@
 
 @interface GreenRequestFile : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *downloadBtn;
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData*)data;
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error;
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection;
+
 @end
